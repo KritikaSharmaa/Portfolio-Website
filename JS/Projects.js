@@ -22,7 +22,7 @@ let AllProjectInfo = [
     Icon: "far fa-calendar-check",
     Name: "JIRA APP",
     Lang: "Html • CSS • Javascript",
-    About: `A Web Application designed to help teams of all type Plan,track and manage projects.It has following features :
+    About: `A Web Application designed to help teams of all types Plan,track and manage projects.It has following features :
         <p>•Save,Delete and Edit tickets • Search tickets •User can also give priority to tickets </p>`,
     Github: "https://github.com/KritikaSharmaa/MsExcel-Clone",
     Website: "https://github.com/KritikaSharmaa/MsExcel-Clone",
@@ -31,13 +31,13 @@ let AllProjectInfo = [
     Icon: "fas fa-dragon",
     Name: "POKEMON CARD GAME",
     Lang: "Html • CSS • Javascript",
-    About: `It is a classic two player game in which players choose a characteristic of a pokemon,after revealing the cards the player whose pokemon has highest point on the basis of that chracteristic wins .The player scores maximum points after 5 matches wins.`,
+    About: `It is a classic two player game where on the basis of chosen characteristic of a pokemon,after revealing the card the player got highest point wins.The player scores maximum points after 5 matches wins.`,
     Github: "https://github.com/KritikaSharmaa/MsExcel-Clone",
     Website: "https://github.com/KritikaSharmaa/MsExcel-Clone",
   },
   {
     Icon: "fas fa-home",
-    Name: "Decor",
+    Name: "DECOR",
     Lang: "Html • SASS",
     About: `•Decor is a web application that help user to book professional interior designer for their home •It is a responsive web application so it responds to the environment in which it is viewed`,
     Github: "https://github.com/KritikaSharmaa/MsExcel-Clone",
@@ -46,23 +46,35 @@ let AllProjectInfo = [
 ];
 
 for (let i = 0; i < AllProjectInfo.length; i++) {
-  // console.log("loop");
   let Project_Card = document.createElement("div");
   Project_Card.classList.add("Project_Card");
   Project_container.append(Project_Card);
   Project_Card.innerHTML = `
-  <div class="Project_icon">
-  <i class="${AllProjectInfo[i].Icon}"></i>
-  </div>
-  <div class="Project_name">${AllProjectInfo[i].Name}</div>
-  <hr class="new1">
-  <div class="Project_Lang">${AllProjectInfo[i].Lang}</div>
-  <div class="About_Project">${AllProjectInfo[i].About}</div>
-  <div class="Links">
-    <a href=${AllProjectInfo[i].Github} target="_blank">Github</a>
-    <a href=${AllProjectInfo[i].Website}  target="_blank">Website</a>
-  </div>`;
+    <div class="Project_icon">
+      <i class="${AllProjectInfo[i].Icon}"></i>
+    </div>
+    <div class="Project_name">${AllProjectInfo[i].Name}</div>
+    <hr class="new1">
+    <div class="Project_Lang">${AllProjectInfo[i].Lang}</div>
+    <div class="About_Project">${AllProjectInfo[i].About}</div>
+    <div class="Links">
+      <a href=${AllProjectInfo[i].Github} target="_blank">Github</a>
+      <a href=${AllProjectInfo[i].Website} target="_blank">Website</a>
+    </div>`;
 }
+// {
+//   /* <script>
+//       let All_links=["https://www.youtube.com/","https://www.cowin.gov.in/"]
+//       for(let i=0;i<All_links.length;i++){
+//           let Links=document.createElement("div");
+//           Links.classList.add("Links");
+//           Links.innerHTML=`
+//           <a href=${All_links[i]}>google</a>
+//           <a href=${All_links[i]}>cowin</a>`;
+//           document.querySelector(".links_container").append(Links);
+//       }
+//   </script>  */
+// }
 
 //Fade then Apperance Animation...
 const selectSec4 = document.querySelector(".Project_container");

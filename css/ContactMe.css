@@ -1,4 +1,144 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
 .ContactMe {
-  height: 60vh;
-  background-color: yellowgreen;
+  height: auto;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #191919;
+}
+.ContactMe h1 {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #191919;
+}
+.ContactMe div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.infoBox {
+  height: 13rem;
+  width: 13rem;
+  background-color: #191919;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  color: white;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.3), 0 0 0 2px rgb(255, 255, 255),
+    0.6em 0.6em 2em rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.infoBoxMail {
+  width: 18rem;
+  height: 13rem;
+  background-color: #191919;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.3), 0 0 0 2px rgb(255, 255, 255),
+    0.6em 0.6em 2em rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.infoBox i,
+.infoBoxMail i {
+  font-size: 2.2rem;
+  margin-top: 1rem;
+}
+.infoBox div,
+.infoBoxMail div {
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.infoBox div a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+.infoBox div a i {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+.hrline {
+  width: 80%;
+  height: 1px;
+  background-color: #191919;
+  border: none;
+  margin: auto;
+}
+.infoBoxMail:hover,
+.infoBox:hover {
+  transform: scale(1.1);
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .ContactMe h1 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 416px) {
+  .ContactMe h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .ContactMe div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .infoBox {
+    margin: 0rem;
+    height: 10rem;
+    width: 10rem;
+    font-size: 0.8rem;
+  }
+  .infoBoxMail {
+    margin: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 15rem;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .ContactMe h1 {
+    font-size: 2rem;
+  }
+  .infoBox {
+    margin: 0rem;
+  }
+  .infoBoxMail {
+    font-size: 0.7rem;
+    width: 12rem;
+    height: 12rem;
+  }
 }

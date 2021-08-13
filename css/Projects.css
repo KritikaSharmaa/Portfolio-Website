@@ -3,6 +3,7 @@
   padding: 0%;
   margin: 0%;
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,26 +51,12 @@ body {
   box-shadow: 3px 3px 5px 2px grey;
   overflow: hidden;
   position: relative;
+  transition: all 0.5 ease-in-out;
 }
-.Project_Card:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: rgb(255, 153, 0);
-  -webkit-transition: none;
-  -moz-transition: none;
-  transition: none;
-}
-.Project_Card:hover:after {
-  width: 120%;
-  background-color: rgba(255, 255, 255, 0);
-
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.5s ease-in-out;
+.Project_Card:hover {
+  background-color: black;
+  transform: scale(1.04);
+  box-shadow: none;
 }
 
 .Project_icon {
@@ -131,4 +118,36 @@ hr.new1 {
   color: rgb(255, 153, 0);
   font-weight: 600;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+  .My_Projects h1 {
+    font-size: 2.5rem;
+  }
+  .My_Projects p {
+    letter-spacing: 0.5px;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .Project_Card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .Project_icon {
+    height: 12%;
+    width: 12%;
+  }
+  .Project_icon i {
+    font-size: 2rem;
+  }
+  .Project_name {
+    height: 8%;
+  }
+  .Project_Lang {
+    height: 7%;
+  }
+  .About_Project {
+    padding: 2%;
+    margin-top: 5px;
+  }
 }

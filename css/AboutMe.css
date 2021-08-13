@@ -54,11 +54,11 @@ body {
   /* border: 1px solid black; */
 }
 .aboutMe_intro {
-  height: 10%;
+  height: auto;
   width: 100%;
   font-size: 1rem;
   color: rgba(34, 34, 34);
-  letter-spacing: 3px;
+  font-size: 1.1rem;
   font-weight: 500;
   /* border: 1px solid black; */
 }
@@ -66,6 +66,7 @@ body {
   height: 60%;
   width: 100%;
   list-style: none;
+  margin-top: 2rem;
   /* border: 1px solid black; */
   display: flex;
   justify-content: space-evenly;
@@ -157,7 +158,13 @@ body {
     width: 95%;
     height: 70%;
   }
+  .btn {
+    height: 3rem;
+    width: 8rem;
+    margin-top: 1rem;
+  }
 }
+
 @media only screen and (max-width: 780px) {
   .myPhoto {
     display: none;
@@ -166,13 +173,37 @@ body {
     width: 70%;
   }
   .section2_outerDiv {
-    width: 100%;
+    width: 98%;
   }
 }
+
+@media only screen and (max-width: 555px) {
+  .aboutMe_heading {
+    font-size: 3rem;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .aboutMe_heading {
     font-size: 2.5rem;
     letter-spacing: 3px;
+  }
+  .abouMe_content ul {
+    font-size: 1rem;
+  }
+  .aboutMe_intro {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .section2 {
+    margin: 0%;
+  }
+  .aboutMe_heading {
+    font-size: 2rem;
+  }
+  .btn {
+    margin-left: -2rem;
   }
 }
 @media only screen and (max-width: 485px) {
@@ -181,11 +212,7 @@ body {
     margin-left: -2rem;
   }
   .aboutMe_heading {
-    font-size: 2rem;
-    letter-spacing: 2px;
-  }
-  .aboutMe_intro {
-    font: 0.8rem;
+    font-size: 2.5rem;
     letter-spacing: 2px;
   }
   .abouMe_content ul {
@@ -193,13 +220,18 @@ body {
   }
   .btn {
     width: 35%;
+    margin-left: -2rem;
     font-size: 0.7rem;
     font-weight: 800;
   }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
+  .section2 {
+    margin: 0%;
+  }
   .section2_outerDiv {
     height: 60%;
+    width: 100%;
   }
   .part1 {
     margin-left: -0.5rem;
@@ -213,9 +245,13 @@ body {
   .aboutMe_intro {
     font-size: 0.8rem;
   }
+  .aboutMe_heading {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 330px) {
   .btn {
-    width: 40%;
-    font-size: 0.5rem;
-    font-weight: 700;
+    height: 2rem;
+    width: 6rem;
   }
 }

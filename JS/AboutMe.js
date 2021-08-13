@@ -19,3 +19,9 @@ const ObserverAllSection = new IntersectionObserver(callbackSec, {
 // });
 ObserverAllSection.observe(selectSec2);
 selectSec2.classList.add("section2-hidden");
+
+//section 2 about Me
+if (window.innerWidth <= 590) {
+  document.querySelector(".aboutMe_intro").innerText =
+    "I thrive on challenges and constantly set goals for myself to learn new skills.";
+}

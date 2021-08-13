@@ -16,26 +16,26 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="section1">
+    <div class="section1" id="Home">
         <nav class="navbar">
             <span class="navbar-toggle" id="js-navbar-toggle">
                 <span class="material-icons menu">menu</span>
             </span>
             <ul class="main-nav" id="js-menu">
               <li>
-                <a href="#" class="nav-links">Home</a>
+                <a href="#Home" class="nav-links">Home</a>
               </li>
               <li>
-                <a href="#" class="nav-links">About</a>
+                <a href="#About" class="nav-links">About</a>
               </li>
               <li>
-                <a href="#" class="nav-links">Resume</a>
+                <a href="#Resume" class="nav-links">Resume</a>
               </li>
               <li>
-                <a href="#" class="nav-links">Project</a>
+                <a href="#Projects" class="nav-links">Project</a>
               </li>
               <li>
-                <a href="#" class="nav-links">Contact</a>
+                <a href="#Contact" class="nav-links">Contact</a>
               </li>
             </ul>
           </nav>
@@ -67,13 +67,13 @@
             </div >
         </div>
     </div>
-    <div class="section2">
+    <div class="section2" id="About">
       <div class="section2_outerDiv">
         <div class="myPhoto">
         </div>
         <div class="aboutMe">
           <div class="aboutMe_heading"> About Me</div>
-          <div class="aboutMe_intro">I like working with new Tools and Technologies.</div>
+          <div class="aboutMe_intro">Enthusiastic Developer eager to contribute to team success through hardwork, attention to detail and excellent organizational skills.Motivated to learn, grow and excel.</div>
           <div class="abouMe_content">
             <ul class="part1">
               <li>Name:</li>
@@ -98,7 +98,7 @@
       </div>
     </div>
 
-    <div class="section3">
+    <div class="section3" id="Resume">
       <div class="Resume_Nav">
         <ul class="ResumeContent">
             <li>Education</li>
@@ -189,53 +189,68 @@
         <div class="Achievements FadeSec3">
           <h1>Achievements</h1>
             <ul>
-              <li><span>&#x1F5F8;</span>Earned 6 start gold badge for problem solving in Hackerrank</li>
-              <li><span>&#x1F5F8;</span>Lead coordinator of college programming club</li>
-              <li><span>&#x1F5F8;</span>Lead coordinator of college Dance club</li>
+              <li><span>&#x1F5F8;</span>Earned 6 star gold badge for problem solving in Hackerrank, solved 150+ questions.</li>
+              <li></li>
               <li><span>&#x1F5F8;</span>Won gold for Discuss throw at zonal as well as district level in High school</li>
-              <li><span>&#x1F5F8;</span>Won gold for shotput at zonal level in High School</li>
+              <li><span>&#x1F5F8;</span>Won gold for shot put at zonal level in High School</li>
             </ul>
         </div>
      </div>
     </div>
     <!-- ** -->
-    <div class="My_Projects">
+    <div class="My_Projects" id="Projects">
       <h1>PROJECTS</h1>
       <p>Here are a few design projects I have worked on :</p>
       <div class="Project_container"></div>
     </div>
-    <div class="ContactMe">
-      <form action="mail.php" method="post">
-        <label for="name">Your Name</label>
-        <input type="text"  name="name" placeholder="Your name..">
-    
-        <label for="lname">Email</label>
-        <input type="email"  name="email" placeholder="Your email..">
-       
-        <label for="message">Message</label>
-        <textarea  name="message" placeholder="Write something.." style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit">
-      </form>
+
+    <hr class="hrline"/>
+
+    <div class="ContactMe" id="Contact">
+      <h1>CONTACT ME</h1>
+      <div>
+        <div class="infoBox">
+          <i class="fas fa-phone-alt"></i>
+          <div>
+            <span>Contact Number</span>
+            <span>+91 9625627787</span>
+            <span>+91 8700028351</span>
+          </div>
+        </div>
+        <div class="infoBoxMail">
+          <i class="fas fa-mail-bulk"></i>
+          <div>
+            <span>Email Address</span>
+            <span>erkritika.sharmaa@gmail.com</span>
+          </div>
+        </div>
+        <div class="infoBox">
+          <i class="fab fa-skype"></i>
+          <div>
+            <a href="skype:live:.cid.736d4d73743ab895?call"><i class="far fa-hand-point-right"></i>Call</a>
+            <a href="skype:live:.cid.736d4d73743ab895?chat"><i class="far fa-hand-point-right"></i>Message</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="Footer">
       <div class="Footer_Links">
           <div class="Social_Links">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-instagram"></i>
+            <a class="fab fa-github" href="https://github.com/KritikaSharmaa"></a>
+            <a class="fab fa-linkedin" href="https://www.linkedin.com/in/kritika-sharma-285b071a1/"></a>
+            <a class="fab fa-instagram" href="https://www.instagram.com/sharmaa_kritikaa/"></a>
           </div>
           <div class="Web_Links">
-            <a href="#">Home</a>
+            <a href="#Home">Home</a>
             <span>•</span>
-            <a href="#">About</a>
+            <a href="#About">About</a>
             <span>•</span>
-            <a href="#">Resume</a>
+            <a href="#Resume">Resume</a>
             <span>•</span>
-            <a href="#">Projects</a>
+            <a href="#Projects">Project</a>
             <span>•</span>
-            <a href="#">Contact Me</a>
+            <a href="#Contact">Contact Me</a>
           </div>
       </div>
       <div class="copyright">Copyright ©2021</div>

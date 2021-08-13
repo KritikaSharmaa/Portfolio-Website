@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0%;
+  margin: 0%;
 }
+
 .section3 {
   height: 400vh;
   clip-path: polygon(0 0, 100% 2.5%, 100% 100%, 0 100%);
@@ -42,6 +43,23 @@
 .Resume {
   height: 90%;
   width: 70%;
+}
+.acurr {
+  color: #ffac00 !important;
+  margin-left: 20px;
+  position: relative;
+}
+.acurr::after {
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  width: 20px;
+  height: 2px;
+  content: "";
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #ffac00;
 }
 .section3-hidden {
   opacity: 0;
@@ -154,15 +172,6 @@
   margin-right: 3rem;
   margin-left: 3rem;
 }
-/* .planeSvg {
-  position: fixed;
-  top: 32rem;
-  left: 0;
-  will-change: transform;
-  transform: translate3d(-50%, 150px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-} */
 .Achievements {
   height: 15%;
   width: 80%;
