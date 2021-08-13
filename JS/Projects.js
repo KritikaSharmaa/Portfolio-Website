@@ -22,7 +22,7 @@ let AllProjectInfo = [
     Icon: "fas fa-dragon",
     Name: "POKEMON CARD GAME",
     Lang: "Html • CSS • Javascript",
-    About: `It is a classic two player game where on the basis of chosen characteristics of a pokemon,after revealing the card the player got highest point wins.The player scores maximum points after 5 matches wins.`,
+    About: `It is a classic two player game where on the basis of chosen characteristics of a pokemon,after revealing the card the player gets the highest point wins.The player scores maximum points after 5 matches wins.`,
     Github: "https://github.com/KritikaSharmaa/Pokemon-Card-Game",
     Website: "https://kritikasharmaa.github.io/Pokemon-Card-Game/",
   },
