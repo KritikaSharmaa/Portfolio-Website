@@ -7,7 +7,7 @@ let AllProjectInfo = [
     About: `It is a MS Excel clone which has following features : 
         <p>• Formula evaluation • Cycle detection in formula • save and clear functionality •Allows user to format cells individually in worksheet</p>`,
     Github: "https://github.com/KritikaSharmaa/MsExcel-Clone",
-    Website: "https://github.com/KritikaSharmaa/MsExcel-Clone",
+    Website: "https://kritikasharmaa.github.io/MsExcel-Clone/",
   },
   {
     Icon: "fas fa-camera",
@@ -16,32 +16,15 @@ let AllProjectInfo = [
     About: `Web Application that has following features :
         <p>• Allow users to save and download their images and videos •Filter , zoom-in and zoom-out functionality •User can download and remove image from gallery</p>`,
     Github: "https://github.com/KritikaSharmaa/camera-app",
-    Website: "https://github.com/KritikaSharmaa/camera-app",
-  },
-  {
-    Icon: "far fa-calendar-check",
-    Name: "JIRA APP",
-    Lang: "Html • CSS • Javascript",
-    About: `A Web Application designed to help teams of all types Plan,track and manage projects.It has following features :
-        <p>•Save,Delete and Edit tickets • Search tickets •User can also give priority to tickets </p>`,
-    Github: "https://github.com/KritikaSharmaa/MsExcel-Clone",
-    Website: "https://github.com/KritikaSharmaa/MsExcel-Clone",
+    Website: "https://kritikasharmaa.github.io/camera-app/",
   },
   {
     Icon: "fas fa-dragon",
     Name: "POKEMON CARD GAME",
     Lang: "Html • CSS • Javascript",
-    About: `It is a classic two player game where on the basis of chosen characteristic of a pokemon,after revealing the card the player got highest point wins.The player scores maximum points after 5 matches wins.`,
-    Github: "https://github.com/KritikaSharmaa/MsExcel-Clone",
-    Website: "https://github.com/KritikaSharmaa/MsExcel-Clone",
-  },
-  {
-    Icon: "fas fa-home",
-    Name: "DECOR",
-    Lang: "Html • SASS",
-    About: `•Decor is a web application that help user to book professional interior designer for their home •It is a responsive web application so it responds to the environment in which it is viewed`,
-    Github: "https://github.com/KritikaSharmaa/MsExcel-Clone",
-    Website: "https://github.com/KritikaSharmaa/MsExcel-Clone",
+    About: `It is a classic two player game where on the basis of chosen characteristics of a pokemon,after revealing the card the player got highest point wins.The player scores maximum points after 5 matches wins.`,
+    Github: "https://github.com/KritikaSharmaa/Pokemon-Card-Game",
+    Website: "https://kritikasharmaa.github.io/Pokemon-Card-Game/",
   },
 ];
 
