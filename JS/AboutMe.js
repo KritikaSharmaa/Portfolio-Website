@@ -25,3 +25,8 @@ if (window.innerWidth <= 590) {
   document.querySelector(".aboutMe_intro").innerText =
     "I thrive on challenges and constantly set goals for myself to learn new skills.";
 }
+
+document.querySelector(".DownloadCV_btn").addEventListener("click", () => {
+  window.location =
+    "https://drive.google.com/file/d/1zMNUW2WCEpQodvFYuVp-dNv6r57MtHRv/view?usp=sharing";
+});
