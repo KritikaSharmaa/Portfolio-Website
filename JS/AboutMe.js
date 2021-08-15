@@ -28,5 +28,5 @@ if (window.innerWidth <= 590) {
 
 document.querySelector(".DownloadCV_btn").addEventListener("click", () => {
   window.location =
-    "https://drive.google.com/file/d/1NjkBuBwQNy13KF9AHIPZ_0wjhyDWmjvO/view?usp=sharing";
+    "https://drive.google.com/file/d/1DTBL5JIfLDgWkiHNGp_57-pAwt4KQdez/view?usp=sharing";
 });
