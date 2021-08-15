@@ -26,6 +26,26 @@ let AllProjectInfo = [
     Github: "https://github.com/KritikaSharmaa/Pokemon-Card-Game",
     Website: "https://kritikasharmaa.github.io/Pokemon-Card-Game/",
   },
+  {
+    Icon: "fas fa-film",
+    Name: "Flimic App",
+    Lang: "React",
+    About: `Filmic app is a movie rental website that let you rent movies to stream at home
+    <p>Features of this project are - Customers can rent movie, filter movie on basis of genres, add movie to watchList, delete movies from 	the list and search a movie</p>.`,
+    Github: "https://github.com/KritikaSharmaa/Flimic-app",
+    Website: "https://kritikasharmaa.github.io/Pokemon-Card-Game/",
+  },
+  {
+    Icon: "fas fa-calendar-check",
+    Name: "Jira App",
+    Lang: "Html • CSS • Javascript",
+    About: `A Web Application designed to help teams of all types Plan,track and manage project.
+    <p>Some features of this project are -Save,Delete and Edit tickets, Search tickets and user can also give priority to tickets according to
+    their timeline</p>.
+    `,
+    Github: "https://github.com/KritikaSharmaa/jira-app",
+    Website: "https://kritikasharmaa.github.io/Pokemon-Card-Game/",
+  },
 ];
 
 for (let i = 0; i < AllProjectInfo.length; i++) {
@@ -42,9 +62,12 @@ for (let i = 0; i < AllProjectInfo.length; i++) {
     <div class="About_Project">${AllProjectInfo[i].About}</div>
     <div class="Links">
       <a href=${AllProjectInfo[i].Github} target="_blank">Github</a>
-      <a href=${AllProjectInfo[i].Website} target="_blank">Website</a>
+      <a href=${AllProjectInfo[i].Website} target="_blank" class="${
+    i > 2 ? "hide" : ""
+  }">Website</a>
     </div>`;
 }
+
 // {
 //   /* <script>
 //       let All_links=["https://www.youtube.com/","https://www.cowin.gov.in/"]

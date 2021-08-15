@@ -17,6 +17,9 @@ body {
   padding-bottom: 5rem;
   padding-top: 5rem;
 }
+.hide {
+  display: none;
+}
 .My_Projects h1 {
   height: 15%;
   display: flex;
