@@ -1,6 +1,18 @@
 let Project_container = document.querySelector(".Project_container");
 let AllProjectInfo = [
   {
+    Icon: "fab fa-black-tie",
+    Name: "RESUME BUILDER",
+    Lang: "React • Redux • Tailwindcss • Firebase",
+    About: `It is a Web Application that has following features :
+        <p>•helps the users to build
+        their resume using predefined templates.
+        • User can generate public link or download the respective resume in
+        the PDF format.`,
+    Github: "https://github.com/KritikaSharmaa/ResumeBuilder",
+    Website: "https://kritika-resume-builder.herokuapp.com/",
+  },
+  {
     Icon: "far fa-file-excel",
     Name: "EXCEL CLONE",
     Lang: "Html • CSS • Javascript",
