@@ -27,5 +27,5 @@ if (window.innerWidth <= 590) {
 }
 
 document.querySelector(".DownloadCV_btn").addEventListener("click", () => {
-  window.location ="https://drive.google.com/file/d/1QgunLpiZVbHWIU4aoCZbq7gvTKsucd5M/view?usp=sharing";
+  window.location ="https://drive.google.com/file/d/1CBs_VC8OhG36mNsXsFsHUDRXFnhD2a2p/view?usp=sharing";
 });
